@@ -1,0 +1,144 @@
+/* Estilo del body */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Estilo del header */
+header {
+    width: 1280px;
+    height: 73px;   
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+} 
+  
+
+.bg {
+    background-image: url(../img/bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 73px;
+    width: 1280px;
+    height: 727px;
+}
+
+/* Estilo de la descripción con imagen */
+.descripcion {
+    background-color: black;
+    font-size: 16px;
+    font-weight: 300;
+    top: 800px;
+    width: 1280px;
+    height: 348px;
+}
+
+.descripcion div {
+    width: 80%;
+    margin: auto;
+    display: flow-root;
+    opacity: 1;
+}
+
+.descripcion img {
+    float: right;
+    height: 237px;
+    margin-left: 106px;
+    margin-top: 45px;
+}
+
+.parrafo1 {
+    margin-top: 76px;
+}
+
+/* Estilo Caracteristicas */
+.caracteristicas {
+    background-color: #1E1A13;
+    opacity: 0.98;
+    top: 1141px;
+    width: 1280px;
+    height: 348px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 74px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+.caracteristicas .grupo {
+    width: 70%;
+    margin: auto;
+}
+
+.caracteristicas .contenedor {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.grupo .contenedor i {
+    font-size: 50px;
+}
+
+/* Estilo galería */
+.galeria {
+    display: flow-root; 
+    top: 1488px;
+    width: 1280px;
+    height: 348px;
+}
+
+.galeria img {
+    width: 316px;
+    height: 202px;
+    float: left;
+}
+
+.imagen1 {
+    margin: 73px 16px 73px 130px; 
+}
+
+.imagen3 {
+    margin: 73px 130px 73px 16px;
+}
+
+.imagen2 {
+    margin: 73px 16px;
+}
+
+/* Estilo footer */
+footer {
+    background-color: #1E1A13;
+    opacity: 0.94;
+    top: 1835px;
+    left: 0px;
+    width: 1280px;
+    height: 102px;
+}
+
+.visita {
+    padding: 40px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0px;
+}
+
+
+
+
+
+
